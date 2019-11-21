@@ -61,6 +61,7 @@
 		
 		<acme:menu-option code="master.menu.employer" access="hasRole('Employer')">
 			<acme:menu-suboption code="master.menu.employer.jobs" action="/employer/job/list"/>
+			<acme:menu-suboption code="master.menu.employer.application.list" action="/employer/application/list"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.consumer" access="hasRole('Consumer')">
@@ -68,12 +69,7 @@
 			<acme:menu-suboption code="master.menu.consumer.offers.create" action="/consumer/offer/create"/>
 		</acme:menu-option>
 		
-		<acme:menu-option code="master.menu.consumer" access="hasRole('Employer')">
-			<acme:menu-suboption code="master.menu.employer.favourite-link" action="http://www.example.com/"/>
-			<acme:menu-suboption code="master.menu.employer.application.list" action="/employer/application/list"/>
-			<acme:menu-suboption code="master.menu.employer.jobs" action="employer/job/list"/>
-			
-		</acme:menu-option>
+		
 	</acme:menu-left>
 
 	<acme:menu-right>
