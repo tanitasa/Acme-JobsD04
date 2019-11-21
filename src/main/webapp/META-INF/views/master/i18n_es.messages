@@ -73,11 +73,6 @@ master.menu.consumer = Consumidor
 master.menu.consumer.favourite-link = Enlace favorito
 master.menu.consumer.offers.create = Crear oferta
 
-# master.menu.employer ##########################################################
-
-master.menu.employer = Empleado
-master.menu.employer.jobs = Trabajos
-
 # master.menu.user-account ####################################################
 
 master.menu.user-account = Cuenta
@@ -110,6 +105,12 @@ master.company.name = Acme-Jobs, Inc.
 master.company.address = 10, Sevilla, Spain
 master.company.phone = +954 123 456
 master.company.email = contact@acmejobs.com
+
+# master.employer ##############################################################
+master.menu.employer = Empleado
+master.menu.employer.jobs = Trabajos
+master.menu.employer.application.list = Lista de aplicaciones
+master.menu.employer.favourite-link = Enlace favorito
 
 # master.license ##############################################################
 
