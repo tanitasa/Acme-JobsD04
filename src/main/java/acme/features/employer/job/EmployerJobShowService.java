@@ -17,7 +17,7 @@ public class EmployerJobShowService implements AbstractShowService<Employer, Job
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	EmployerJobRepository repository;
+	private EmployerJobRepository repository;
 
 
 	// AbstractShowService<Authenticated, Challenge> interface ---------------
@@ -33,7 +33,7 @@ public class EmployerJobShowService implements AbstractShowService<Employer, Job
 		Principal principal;
 
 		jobId = request.getModel().getInteger("id");
-		job = this.repository.findOneJobById(jobId);
+		job = this.repository.findOneById(jobId);
 		employer = job.getEmployer();
 		principal = request.getPrincipal();
 		result = job.getIsActive() || !job.getIsActive() && employer.getUserAccount().getId() == principal.getActiveRoleId();
@@ -59,7 +59,7 @@ public class EmployerJobShowService implements AbstractShowService<Employer, Job
 		int id;
 
 		id = request.getModel().getInteger("id");
-		result = this.repository.findOneJobById(id);
+		result = this.repository.findOneById(id);
 
 		return result;
 	}

@@ -13,10 +13,10 @@ import acme.framework.repositories.AbstractRepository;
 public interface EmployerJobRepository extends AbstractRepository {
 
 	@Query("Select j from Job j where j.id = ?1")
-	Job findOneJobById(int id);
+	Job findOneById(int id);
 
 	@Query("Select j from Job j where j.employer.id = ?1")
-	Collection<Job> findManyByEmployerId(int employerId);
+	Collection<Job> findManyAllByEmployer(int employerId);
 
 	@Query("select j from Job j")
 	Collection<Job> findManyAll();

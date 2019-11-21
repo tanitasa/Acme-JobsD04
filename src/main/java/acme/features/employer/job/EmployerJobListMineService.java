@@ -19,7 +19,7 @@ public class EmployerJobListMineService implements AbstractListService<Employer,
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	EmployerJobRepository repository;
+	private EmployerJobRepository repository;
 
 
 	// AbstractListService<Authenticated, Request> interface ---------------
@@ -49,7 +49,7 @@ public class EmployerJobListMineService implements AbstractListService<Employer,
 
 		principal = request.getPrincipal();
 
-		result = this.repository.findManyByEmployerId(principal.getActiveRoleId());
+		result = this.repository.findManyAllByEmployer(principal.getActiveRoleId());
 
 		return result;
 
