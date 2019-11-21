@@ -6,6 +6,7 @@ import java.util.Date;
 import javax.persistence.Entity;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
@@ -40,15 +41,18 @@ public class Offer extends DomainEntity {
 	private Date				creationMoment;
 
 	@Temporal(TemporalType.TIMESTAMP)
+	@NotNull
 	private Date				deadline;
 
 	@NotBlank
 	private String				description;
 
 	@NotNull
+	@Valid
 	private Money				minReward;
 
 	@NotNull
+	@Valid
 	private Money				maxReward;
 
 	// Derived attributes -----------------------------------------------------

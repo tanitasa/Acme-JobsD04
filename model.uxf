@@ -537,10 +537,10 @@ Worker
       <w>78</w>
       <h>48</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-x
+    <panel_attributes>lt=x-&gt;
 
 m1=0..*
-publish v
+publish by v
 m2=1</panel_attributes>
     <additional_attributes>110.0;60.0;10.0;10.0</additional_attributes>
   </element>
@@ -577,13 +577,13 @@ m2=1</panel_attributes>
     <coordinates>
       <x>426</x>
       <y>246</y>
-      <w>42</w>
+      <w>66</w>
       <h>66</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-&gt;
+    <panel_attributes>lt=x-&gt;
 m1=0..*
 
-can v
+made by v
 m2=1
 
 </panel_attributes>
