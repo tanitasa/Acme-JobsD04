@@ -60,7 +60,7 @@
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.employer" access="hasRole('Employer')">
-			<acme:menu-suboption code="master.menu.employer.jobs" action="employer/job/list"/>
+			<acme:menu-suboption code="master.menu.employer.jobs" action="/employer/job/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.consumer" access="hasRole('Consumer')">

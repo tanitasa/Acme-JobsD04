@@ -19,7 +19,7 @@ public class EmployerJobListMineService implements AbstractListService<Employer,
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	private EmployerJobRepository repository;
+	EmployerJobRepository repository;
 
 
 	// AbstractListService<Authenticated, Request> interface ---------------
@@ -42,6 +42,7 @@ public class EmployerJobListMineService implements AbstractListService<Employer,
 
 	@Override
 	public Collection<Job> findMany(final Request<Job> request) {
+
 		assert request != null;
 		Collection<Job> result;
 		Principal principal;
@@ -51,6 +52,7 @@ public class EmployerJobListMineService implements AbstractListService<Employer,
 		result = this.repository.findManyByEmployerId(principal.getActiveRoleId());
 
 		return result;
+
 	}
 
 }

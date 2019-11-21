@@ -510,6 +510,7 @@
 		<property name="link" value="http://www.linkjob1.com" />	
 		<property name="descriptor" ref="descriptor1" />
 		<property name="employer" ref="employer1Employer" />
+		<property name="isActive" value="false"/>
 		<property name="applications">
 			<list>
 				<ref bean="application1" />
@@ -527,6 +528,7 @@
 		<property name="link" value="http://www.linkjob2.com" />	
 		<property name="descriptor" ref="descriptor2" />
 		<property name="employer" ref="employer2Employer" />
+		<property name="isActive" value="false"/>
 		<property name="applications">
 			<list>
 				<ref bean="application3" />
@@ -543,6 +545,7 @@
 		<property name="link" value="http://www.linkjob3.com" />	
 		<property name="descriptor" ref="descriptor3" />
 		<property name="employer" ref="employer1Employer" />
+		<property name="isActive" value="false"/>
 		<property name="applications">
 			<list>
   			</list>

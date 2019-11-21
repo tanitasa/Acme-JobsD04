@@ -2,6 +2,7 @@
 package acme.features.employer.job;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import acme.entities.jobs.Job;
 import acme.entities.roles.Employer;
@@ -10,6 +11,7 @@ import acme.framework.components.Request;
 import acme.framework.entities.Principal;
 import acme.framework.services.AbstractShowService;
 
+@Service
 public class EmployerJobShowService implements AbstractShowService<Employer, Job> {
 
 	// Internal state ---------------------------------------------------------
