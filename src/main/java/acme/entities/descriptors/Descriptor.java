@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
 
 import acme.entities.duties.Duty;
 import acme.framework.entities.DomainEntity;
@@ -29,6 +30,7 @@ public class Descriptor extends DomainEntity {
 	//Relationships ----------------------------------------------------------
 	@Valid
 	@OneToMany
+	@NotEmpty
 	private Collection<Duty> duties;
 
 }

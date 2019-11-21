@@ -58,6 +58,8 @@ public class Job extends DomainEntity {
 	@URL
 	private String					link;
 
+	private Boolean					isActive;
+
 	//Relationships ----------------------------------------------------------
 	@Valid
 	@OneToOne
