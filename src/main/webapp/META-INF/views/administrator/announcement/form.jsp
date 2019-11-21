@@ -20,7 +20,7 @@
 	<jstl:if test="${comand != 'create' }">
 		<acme:form-moment code="administrator.announcement.form.label.creationMoment" path="creationMoment" readonly="true"/>
 	</jstl:if>
-	<acme:form-double code="administrator.announcement.form.label.link" path="link"  placeholder="https://"/>
+	<acme:form-url code="administrator.announcement.form.label.link" path="link"  placeholder="https://"/>
 	<acme:form-textbox code="administrator.announcement.form.label.description" path="description"/>	
 	
 	<acme:form-submit test="${command == 'show'}"
