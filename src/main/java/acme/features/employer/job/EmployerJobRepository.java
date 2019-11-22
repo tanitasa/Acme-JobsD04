@@ -16,7 +16,7 @@ public interface EmployerJobRepository extends AbstractRepository {
 	Job findOneById(int id);
 
 	@Query("Select j from Job j where j.employer.id = ?1")
-	Collection<Job> findManyAllByEmployer(int employerId);
+	Collection<Job> findManyAllByEmployer(int jobId);
 
 	@Query("select j from Job j")
 	Collection<Job> findManyAll();

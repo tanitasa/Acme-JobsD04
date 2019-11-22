@@ -16,9 +16,10 @@ employer.job.list.label.deadline = Deadline
 employer.job.list.label.salary = Salary
 employer.job.list.label.link = Link
 employer.job.list.label.isActive = isActive
-employer.job.list.label.descriptor = Descriptor
-employer.job.list.label.employer = Employer
 employer.job.list.label.applications = Applications
+employer.job.list.label.descriptor.description = Description
+employer.job.list.label.descriptor.duties = Duties
+
 
 employer.job.form.label.reference = Reference
 employer.job.form.label.title = Title
@@ -27,10 +28,9 @@ employer.job.form.label.deadline = Deadline
 employer.job.form.label.salary = Salary
 employer.job.form.label.link = Link
 employer.job.form.label.isActive = isActive
-employer.job.form.label.descriptor = Descriptor
-employer.job.form.label.employer = Employer
 employer.job.form.label.applications = Applications
-
+employer.job.form.label.descriptor.description = Description
+employer.job.form.label.descriptor.duties = Duties
 
 
 employer.job.form.button.return = Return

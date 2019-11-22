@@ -23,9 +23,12 @@
 	<acme:list-column code="employer.job.list.label.salary" width="5%" path="salary"/>
 	<acme:list-column code="employer.job.list.label.link" width="5%" path="link"/>
 	<acme:list-column code="employer.job.list.label.isActive" width="5%" path="isActive"/>
-	<acme:list-column code="employer.job.list.label.descriptor" width="5%" path="descriptor"/>
-	<acme:list-column code="employer.job.list.label.employer" width="5%" path="employer"/>
-	<acme:list-column code="employer.job.list.label.applications" width="5%" path="applications"/>
+	
+	<acme:list-column code="employer.job.list.label.descriptor.description" width="5%" path="descriptor.description"/>
+	 <acme:list-column code="employer.job.list.label.descriptor.duties" width="5%" path="descriptor.duties" action="/employer/duty/list"/>
+	
+	
+	<acme:list-column code="employer.job.list.label.applications" width="5%" path="applications" action="/employer/application/list"/>
 	
 	
 </acme:list>
