@@ -548,6 +548,24 @@
 		<property name="isActive" value="false"/>
 		<property name="applications">
 			<list>
+		
+  			</list>
+		</property>					
+  	</bean>
+  	
+  	  	<bean id="job4" class="acme.entities.jobs.Job">
+  		<property name="reference" value="EMPT-JOBT" />
+		<property name="title" value="Job 3" />
+		<property name="status" value="draft" />
+		<property name="deadline" value="2021/05/10 10:59" />
+		<property name="salary" value="1600 €" />	
+		<property name="link" value="http://www.linkjob3.com" />	
+		<property name="descriptor" ref="descriptor3" />
+		<property name="employer" ref="employer1Employer" />
+		<property name="isActive" value="true"/>
+		<property name="applications">
+			<list>
+			
   			</list>
 		</property>					
   	</bean>

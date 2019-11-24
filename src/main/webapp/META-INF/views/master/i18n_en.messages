@@ -47,6 +47,7 @@ master.menu.authenticated.challenges.list = Challenges list
 master.menu.authenticated.companyRecords.list = Company records list
 master.menu.authenticated.announcement.list = Announcements list
 master.menu.authenticated.investorRecords.list = Investor records list
+master.menu.authenticated.job.list = Jobs list
 
 # master.menu.administrator ###################################################
 
