@@ -14,12 +14,14 @@ employer.application.list.label.statement = Statement
 employer.application.list.label.status = Status
 employer.application.list.label.qualifications = Qualifications
 employer.application.list.label.skills = Skills
+employer.application.list.label.job = Job
 employer.application.form.label.reference = Title
 employer.application.form.label.creationMoment = Creation moment
 employer.application.form.label.statement = Statement
 employer.application.form.label.status = Status
 employer.application.form.label.qualifications = Qualifications
 employer.application.form.label.skills = Skills
+employer.application.form.label.job = Job
 
 employer.application.form.button.create = Create
 employer.application.form.button.delete = Delete

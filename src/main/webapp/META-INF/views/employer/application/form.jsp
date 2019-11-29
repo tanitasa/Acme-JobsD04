@@ -24,7 +24,7 @@
 	<acme:form-textbox code="employer.application.form.label.status" path="status"/>
 	<acme:form-textbox code="employer.application.form.label.qualifications" path="qualifications"/>
 	<acme:form-textbox code="employer.application.form.label.skills" path="skills"/>	
-	
+	<acme:form-textbox code="employer.application.form.label.job" path="job.title"/>
 <%-- 	<acme:form-submit test="${command == 'show'}"
 		code = "employer.application.form.button.update"
 		action="/employer/application/update"/>

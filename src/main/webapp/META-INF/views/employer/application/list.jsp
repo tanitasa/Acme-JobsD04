@@ -21,5 +21,6 @@
 	<acme:list-column code="employer.application.list.label.statement" width="5%" path="statement"/>
 	<acme:list-column code="employer.application.list.label.status" width="5%" path="status"/>	
 	<acme:list-column code="employer.application.list.label.qualifications" width="5%" path="qualifications"/>	
-	<acme:list-column code="employer.application.list.label.skills" width="5%" path="skills"/>		
+	<acme:list-column code="employer.application.list.label.skills" width="5%" path="skills"/>
+	<acme:list-column code="employer.application.list.label.job" width="5%" path="job.title"/>		
 </acme:list>
