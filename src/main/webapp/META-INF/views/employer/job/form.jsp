@@ -25,9 +25,8 @@
 	<acme:form-textbox code="employer.job.form.label.isActive" path="isActive"/>
 	
 	<acme:form-textarea code="employer.job.form.label.descriptor.description" path="descriptor.description"/>
-	<acme:form-textarea code="employer.job.form.label.descriptor.duties" path="descriptor.duties" action="/employer/duty/list"/>
-	 
-	<acme:form-textarea code="employer.job.form.label.applications" path ="applications" action="/employer/application/list"/>
+<%-- 	<acme:form-textarea code="employer.job.form.label.descriptor.duties" path="descriptor.duties.title"/>	 
+	<acme:form-textarea code="employer.job.form.label.applications" path ="applications.reference"/> --%>
 	
 	<acme:form-return code="employer.job.form.button.return"/>
 </acme:form>
