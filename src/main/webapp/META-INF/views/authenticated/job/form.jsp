@@ -25,15 +25,18 @@
     <acme:form-textbox code="authenticated.job.form.label.reference"   path="reference" />
 	<acme:form-textbox code="authenticated.job.form.label.title"       path="title" />
 	<acme:form-textbox code="authenticated.job.form.label.status"      path="status" />
-	<acme:form-moment code="authenticated.job.form.label.deadline"     path="deadline" />
-	<acme:form-moment code="authenticated.job.form.label.salary"       path="salary" />
-	<acme:form-moment code="authenticated.job.form.label.link"         path="link" />
-	<acme:form-moment code="authenticated.job.form.label.isActive"     path="isActive" />
-	<acme:form-moment code="authenticated.job.form.label.descriptor"   path="descriptor" />
-    <acme:form-moment code="authenticated.job.form.label.employer"     path="employer" />
-    <acme:form-moment code="authenticated.job.form.label.applitacions" path="applications" />
- 
-
+	<acme:form-moment code="authenticated.job.form.label.deadLine"     path="deadline" />
+	<acme:form-money code="authenticated.job.form.label.salary"       path="salary" />
+	<acme:form-url code="authenticated.job.form.label.link"         path="link" />
+	<acme:form-textbox code="authenticated.job.form.label.isActive"     path="isActive" />
+	<acme:form-textarea code="authenticated.job.form.label.descriptor"   path="descriptor" />
+    <acme:form-textarea code="authenticated.job.form.label.employer"     path="employer" />
+    <%-- 
+    <acme:form-textarea code="authenticated.job.form.label.applications" path="applications" />
+  
+<jstl:forEach items="${applications}" var="app" >
+<jstl:out value="${app.getReference()}"/>
+</jstl:forEach> --%>
  
 
 	<acme:form-return code="authenticated.job.form.button.return" />

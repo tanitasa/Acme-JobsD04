@@ -21,7 +21,7 @@
     <acme:list-column code="authenticated.job.list.label.reference"  width="5%"  path="reference"/>
 	<acme:list-column code="authenticated.job.list.label.title"  width="5%"  path="title"/>
     <acme:list-column code="authenticated.job.list.label.status"  width="5%"  path="status"/>
-	<acme:list-column code="authenticated.job.list.label.deadline"  width="5%"  path="deadline"/>
+	<acme:list-column code="authenticated.job.list.label.deadLine"  width="5%"  path="deadline"/>
 	<acme:list-column code="authenticated.job.list.label.salary"  width="5%"  path="salary"/>
 	<acme:list-column code="authenticated.job.list.label.link"  width="5%"  path="link"/>
     <acme:list-column code="authenticated.job.list.label.isActive"  width="5%"  path="isActive"/>
