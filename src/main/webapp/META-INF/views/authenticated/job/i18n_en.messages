@@ -15,7 +15,7 @@ authenticated.job.list.label.deadLine = Dead Line
 authenticated.job.list.label.salary = Salary
 authenticated.job.list.label.link = Link
 authenticated.job.list.label.isActive = Is Active
-authenticated.job.list.label.descriptor = Descriptor
+authenticated.job.list.label.descriptor.description = Descriptor
 authenticated.job.list.label.employer = Employer
 authenticated.job.list.label.applications = Applications
 

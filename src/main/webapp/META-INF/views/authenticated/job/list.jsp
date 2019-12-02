@@ -25,8 +25,9 @@
 	<acme:list-column code="authenticated.job.list.label.salary"  width="5%"  path="salary"/>
 	<acme:list-column code="authenticated.job.list.label.link"  width="5%"  path="link"/>
     <acme:list-column code="authenticated.job.list.label.isActive"  width="5%"  path="isActive"/>
-    <acme:list-column code="authenticated.job.list.label.descriptor"  width="5%"  path="descriptor.description"/>
-    <acme:list-column code="authenticated.job.list.label.employer"  width="5%"  path="employer.company"/>
+    <acme:list-column code="authenticated.job.list.label.descriptor.description"  width="5%"  path="descriptor.description"/>
+    <acme:list-column code="authenticated.job.list.label.employer"  width="5%"  path="employer.company"/> 
+  
 	<%-- <acme:list-column code="authenticated.job.list.label.applications" >
 	<acme:form-url code="authenticated.job.list.label.applications" path="/applications/list"/>
 	</acme:list-column>  --%>

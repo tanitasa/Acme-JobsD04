@@ -109,7 +109,7 @@ master.company.email = contact@acmejobs.com
 
 # master.employer ##############################################################
 master.menu.employer = Employer
-master.menu.employer.jobs = Jobs
+master.menu.employer.jobs = Jobs list
 master.menu.employer.application.list = Application list
 master.menu.employer.favourite-link = Favourite link
 
