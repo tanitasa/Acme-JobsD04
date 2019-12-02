@@ -16,7 +16,7 @@ authenticated.job.list.label.deadLine = Caducidad
 authenticated.job.list.label.salary = Salario
 authenticated.job.list.label.link = Enlace
 authenticated.job.list.label.isActive = Activo
-authenticated.job.list.label.descriptor = Descriptor
+authenticated.job.list.label.descriptor.description = Descriptor
 authenticated.job.list.label.employer = Empleado
 authenticated.job.list.label.applications = Aplicaciones
 
