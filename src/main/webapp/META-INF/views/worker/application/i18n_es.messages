@@ -26,4 +26,4 @@ employer.application.form.label.job = Trabajo
 employer.application.form.button.create = Crear
 employer.application.form.button.delete = Borrar
 employer.application.form.button.update = Actualizar
-employer.application.form.button.return = Volver
+worker.application.form.button.return = Volver
