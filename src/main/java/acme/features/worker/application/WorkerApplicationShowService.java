@@ -24,29 +24,27 @@ public class WorkerApplicationShowService implements AbstractShowService<Worker,
 	public boolean authorise(final Request<Application> request) {
 		assert request != null;
 		return true;
-
-		//		boolean result;
-		//		int applicationId;
-		//		Application application;
-		//		Worker worker;
-		//		Principal principal;
-		//
-		//		applicationId = request.getModel().getInteger("id");
-		//		application = this.repository.findOneApplicationById(applicationId);
-		//		worker = application.getWorker();
-		//		principal = request.getPrincipal();
-		//		result =
 	}
 
 	@Override
 	public void unbind(final Request<Application> request, final Application entity, final Model model) {
-		// TODO Auto-generated method stub
+		assert request != null;
+		assert entity != null;
+		assert model != null;
 
+		request.unbind(entity, model, "reference", "creationMoment", "statement", "status", "qualifications", "skills", "job.title");
 	}
 
 	@Override
 	public Application findOne(final Request<Application> request) {
-		// TODO Auto-generated method stub
-		return null;
+		assert request != null;
+
+		Application result;
+		int id;
+
+		id = request.getModel().getInteger("id");
+		result = this.repository.findOneById(id);
+
+		return result;
 	}
 }
