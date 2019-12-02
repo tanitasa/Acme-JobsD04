@@ -112,6 +112,11 @@ master.menu.employer.jobs = Trabajos
 master.menu.employer.application.list = Lista de aplicaciones
 master.menu.employer.favourite-link = Enlace favorito
 
+
+# master.worker ##############################################################
+master.menu.worker = Trabajador
+master.menu.worker.applications = Lista de solicitudes
+
 # master.license ##############################################################
 
 master.license.title = Licencia

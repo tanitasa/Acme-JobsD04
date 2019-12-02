@@ -70,6 +70,10 @@
 			<acme:menu-suboption code="master.menu.consumer.offers.create" action="/consumer/offer/create"/>
 		</acme:menu-option>
 		
+		<acme:menu-option code="master.menu.worker" access="hasRole('Worker')">
+			<acme:menu-suboption code="master.menu.worker.applications" action="/worker/application/list"/>
+		</acme:menu-option>
+		
 		
 	</acme:menu-left>
 
