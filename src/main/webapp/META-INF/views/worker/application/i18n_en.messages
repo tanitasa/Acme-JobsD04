@@ -8,22 +8,22 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-employer.application.list.label.reference = Title
-employer.application.list.label.creationMoment = Creation moment
-employer.application.list.label.statement = Statement
-employer.application.list.label.status = Status
-employer.application.list.label.qualifications = Qualifications
-employer.application.list.label.skills = Skills
-employer.application.list.label.job = Job
-employer.application.form.label.reference = Title
-employer.application.form.label.creationMoment = Creation moment
-employer.application.form.label.statement = Statement
-employer.application.form.label.status = Status
-employer.application.form.label.qualifications = Qualifications
-employer.application.form.label.skills = Skills
-employer.application.form.label.job = Job
+worker.application.list.label.reference = Title
+worker.application.list.label.creationMoment = Creation moment
+worker.application.list.label.statement = Statement
+worker.application.list.label.status = Status
+worker.application.list.label.qualifications = Qualifications
+worker.application.list.label.skills = Skills
+worker.application.list.label.job = Job
+worker.application.form.label.reference = Title
+worker.application.form.label.creationMoment = Creation moment
+worker.application.form.label.statement = Statement
+worker.application.form.label.status = Status
+worker.application.form.label.qualifications = Qualifications
+worker.application.form.label.skills = Skills
+worker.application.form.label.job = Job
 
-employer.application.form.button.create = Create
-employer.application.form.button.delete = Delete
-employer.application.form.button.update = Update
+worker.application.form.button.create = Create
+worker.application.form.button.delete = Delete
+worker.application.form.button.update = Update
 worker.application.form.button.return = Return

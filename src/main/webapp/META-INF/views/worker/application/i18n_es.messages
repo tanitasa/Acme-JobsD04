@@ -8,22 +8,22 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-employer.application.list.label.reference = Referencia
-employer.application.list.label.creationMoment = Fecha de creación
-employer.application.list.label.statement = Declaración
-employer.application.list.label.status = Estado
-employer.application.list.label.qualifications = Calificaciones
-employer.application.list.label.skills = Habilidades
-employer.application.list.label.job = Trabajo
-employer.application.form.label.reference = Referencia
-employer.application.form.label.creationMoment = Fecha de creación
-employer.application.form.label.statement = Declaración
-employer.application.form.label.status = Estado
-employer.application.form.label.qualifications = Calificaciones
-employer.application.form.label.skills = Habilidades
-employer.application.form.label.job = Trabajo
+worker.application.list.label.reference = Referencia
+worker.application.list.label.creationMoment = Fecha de creación
+worker.application.list.label.statement = Declaración
+worker.application.list.label.status = Estado
+worker.application.list.label.qualifications = Calificaciones
+worker.application.list.label.skills = Habilidades
+worker.application.list.label.job = Trabajo
+worker.application.form.label.reference = Referencia
+worker.application.form.label.creationMoment = Fecha de creación
+worker.application.form.label.statement = Declaración
+worker.application.form.label.status = Estado
+worker.application.form.label.qualifications = Calificaciones
+worker.application.form.label.skills = Habilidades
+worker.application.form.label.job = Trabajo
 
-employer.application.form.button.create = Crear
-employer.application.form.button.delete = Borrar
-employer.application.form.button.update = Actualizar
+worker.application.form.button.create = Crear
+worker.application.form.button.delete = Borrar
+worker.application.form.button.update = Actualizar
 worker.application.form.button.return = Volver
