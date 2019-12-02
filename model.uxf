@@ -478,6 +478,7 @@ Worker
 + deadline: Date {NotNull, TemporalType(TIMESTAMP)} 
 + salary: Money {NotNull, Valid} 
 + link: String [0..1]{URL} 
++ isActive: Boolean
 </panel_attributes>
     <additional_attributes/>
   </element>
